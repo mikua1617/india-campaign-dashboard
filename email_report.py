@@ -34,6 +34,7 @@ RECIPIENTS = [
     "girdhar.s@ituring.ai",
     "saurabh.verma@ituring.ai",
     "srivastava.aishwerya@ituring.ai",
+    "suman@ituring.ai",
 ]
 
 
