@@ -61,6 +61,7 @@ SHARE_WITH = [
     "girdhar.s@ituring.ai",
     "saurabh.verma@ituring.ai",
     "srivastava.aishwerya@ituring.ai",
+    "suman@ituring.ai",
 ]
 
 DOCS_DIR = os.path.join(os.path.dirname(__file__), "docs")
