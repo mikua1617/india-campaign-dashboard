@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>US campaign dashboard</title>
+<title>India campaign dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
@@ -31,7 +31,7 @@
 </head>
 <body>
 
-<h1>US campaign dashboard</h1>
+<h1>India campaign dashboard</h1>
 <p class="updated" id="updatedAt">Loading...</p>
 <p id="masterPivotLink" style="font-size: 13px; margin: -12px 0 20px;"></p>
 
@@ -45,7 +45,7 @@
     <span><span class="swatch" style="background:#eb6834"></span>Replied</span>
   </div>
   <div style="position: relative; height: 280px;">
-    <canvas id="trendChart" role="img" aria-label="14-day trend of sent, opened, clicked, and replied counts across US campaigns"></canvas>
+    <canvas id="trendChart" role="img" aria-label="14-day trend of sent, opened, clicked, and replied counts across India campaigns"></canvas>
   </div>
 </div>
 
@@ -105,7 +105,7 @@ async function load() {
   names.forEach(n => Object.keys(campaigns[n].days || {}).forEach(d => allDates.add(d)));
   const dates = Array.from(allDates).sort();
 
-  // Aggregate totals per date across all US campaigns
+  // Aggregate totals per date across all India campaigns
   const totals = dates.map(date => {
     let sent = 0, opened = 0, clicks = 0, replies = 0;
     names.forEach(n => {
@@ -176,9 +176,6 @@ async function load() {
     const c = campaigns[n];
     const last = dates.length ? (c.days[dates[dates.length - 1]] || {}) : {};
     const cur = c.current || {};
-    // Rates use UNIQUE opens/clicks (distinct people), not raw event counts --
-    // using raw totals here can exceed 100% since one person can open the
-    // same email multiple times.
     // TRUE per-person rate: distinct people who opened/clicked at least
     // once, out of total leads in the campaign -- NOT event counts divided
     // by emails sent (which inflates with every follow-up sequence step
