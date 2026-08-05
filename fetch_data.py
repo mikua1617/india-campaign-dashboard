@@ -86,7 +86,7 @@ def get_all_india_campaigns():
     campaigns = []
     starting_after = None
     while True:
-        params = {"limit": 100}
+        params = {"limit": 100, "exclude_status": 0}  # 0 = Draft, never actually launched
         if starting_after:
             params["starting_after"] = starting_after
         page = api_get("/campaigns", params)
