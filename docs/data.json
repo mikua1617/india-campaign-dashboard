@@ -2,15 +2,20 @@
   "campaigns": {
     "India_Auto Build_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:39:17.570907+00:00",
+        "as_of": "2026-08-05T08:25:24.451979+00:00",
         "bounced_lifetime": 3,
         "clicks_lifetime": 58,
+        "clicks_unique_lifetime": 7,
+        "leads_count": 39,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1G5HioP56wcDRDknHBdWsUJPLyNmbmonGcdRuWE_EK0c/edit",
         "opens_lifetime": 44,
+        "opens_unique_lifetime": 36,
         "replies_24h": 0,
         "replies_lifetime": 0,
         "sent_24h": 7,
-        "sent_lifetime": 147
+        "sent_lifetime": 147,
+        "unique_clickers_lifetime": 5,
+        "unique_openers_lifetime": 24
       },
       "days": {
         "2026-07-23": {
@@ -106,15 +111,20 @@
     },
     "India_Auto Close_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:39:17.570907+00:00",
+        "as_of": "2026-08-05T08:25:24.451979+00:00",
         "bounced_lifetime": 10,
         "clicks_lifetime": 0,
+        "clicks_unique_lifetime": 0,
+        "leads_count": 49,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/16Ag4-2eAP2Wyvb4sNGoXAylTKA9rRbeX2Zjjgv1rNP0/edit",
-        "opens_lifetime": 70,
+        "opens_lifetime": 71,
+        "opens_unique_lifetime": 53,
         "replies_24h": 0,
         "replies_lifetime": 0,
         "sent_24h": 12,
-        "sent_lifetime": 169
+        "sent_lifetime": 169,
+        "unique_clickers_lifetime": 0,
+        "unique_openers_lifetime": 28
       },
       "days": {
         "2026-07-23": {
@@ -191,26 +201,31 @@
         },
         "2026-08-05": {
           "clicks": 0,
-          "opened": 0,
+          "opened": 1,
           "replies": 0,
           "sent": 12,
           "unique_clicks": 0,
-          "unique_opened": 0
+          "unique_opened": 1
         }
       },
       "id": "acc43361-7805-4e97-8ab2-3e2536fad69a"
     },
     "India_FMCG Godrej_08/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:39:17.570907+00:00",
+        "as_of": "2026-08-05T08:25:24.451979+00:00",
         "bounced_lifetime": 7,
         "clicks_lifetime": 0,
+        "clicks_unique_lifetime": 0,
+        "leads_count": 47,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/18W0Xkx2G7dL7CHitkA2TTSHKwZPhUzBBkZ0VJEos_eE/edit",
         "opens_lifetime": 417,
+        "opens_unique_lifetime": 249,
         "replies_24h": 0,
         "replies_lifetime": 1,
         "sent_24h": 0,
-        "sent_lifetime": 279
+        "sent_lifetime": 279,
+        "unique_clickers_lifetime": 0,
+        "unique_openers_lifetime": 41
       },
       "days": {
         "2026-07-24": {
@@ -258,29 +273,34 @@
     },
     "India_RBI MRM_05/08/26": {
       "current": {
-        "as_of": "2026-08-05T07:39:17.570907+00:00",
-        "bounced_lifetime": 0,
+        "as_of": "2026-08-05T08:25:24.451979+00:00",
+        "bounced_lifetime": 1,
         "clicks_lifetime": 0,
+        "clicks_unique_lifetime": 0,
+        "leads_count": 78,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1R0BxLT32VC4f-DqqAcEaegrjOAlKpxdsdMcrVMb0NWI/edit",
-        "opens_lifetime": 2,
+        "opens_lifetime": 3,
+        "opens_unique_lifetime": 2,
         "replies_24h": 0,
         "replies_lifetime": 0,
-        "sent_24h": 3,
-        "sent_lifetime": 3
+        "sent_24h": 7,
+        "sent_lifetime": 7,
+        "unique_clickers_lifetime": 0,
+        "unique_openers_lifetime": 2
       },
       "days": {
         "2026-08-05": {
           "clicks": 0,
-          "opened": 2,
+          "opened": 3,
           "replies": 0,
-          "sent": 3,
+          "sent": 7,
           "unique_clicks": 0,
-          "unique_opened": 1
+          "unique_opened": 2
         }
       },
       "id": "b5b9ecae-93e4-44ff-9d1b-c1a1009ac972"
     }
   },
-  "generated_at": "2026-08-05T07:39:17.570907+00:00",
+  "generated_at": "2026-08-05T08:25:24.451979+00:00",
   "master_pivot_url": "https://docs.google.com/spreadsheets/d/1-lP16-roFqmtpNFPP36DhgduxmDdQkIFgOHu6Yad7cI/edit"
 }
