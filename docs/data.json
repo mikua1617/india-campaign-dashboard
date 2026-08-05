@@ -2,7 +2,7 @@
   "campaigns": {
     "India_Auto Build_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:34:54.299998+00:00",
+        "as_of": "2026-08-05T07:39:17.570907+00:00",
         "bounced_lifetime": 3,
         "clicks_lifetime": 58,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1G5HioP56wcDRDknHBdWsUJPLyNmbmonGcdRuWE_EK0c/edit",
@@ -106,7 +106,7 @@
     },
     "India_Auto Close_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:34:54.299998+00:00",
+        "as_of": "2026-08-05T07:39:17.570907+00:00",
         "bounced_lifetime": 10,
         "clicks_lifetime": 0,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/16Ag4-2eAP2Wyvb4sNGoXAylTKA9rRbeX2Zjjgv1rNP0/edit",
@@ -202,7 +202,7 @@
     },
     "India_FMCG Godrej_08/07/26": {
       "current": {
-        "as_of": "2026-08-05T07:34:54.299998+00:00",
+        "as_of": "2026-08-05T07:39:17.570907+00:00",
         "bounced_lifetime": 7,
         "clicks_lifetime": 0,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/18W0Xkx2G7dL7CHitkA2TTSHKwZPhUzBBkZ0VJEos_eE/edit",
@@ -258,7 +258,7 @@
     },
     "India_RBI MRM_05/08/26": {
       "current": {
-        "as_of": "2026-08-05T07:34:54.299998+00:00",
+        "as_of": "2026-08-05T07:39:17.570907+00:00",
         "bounced_lifetime": 0,
         "clicks_lifetime": 0,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1R0BxLT32VC4f-DqqAcEaegrjOAlKpxdsdMcrVMb0NWI/edit",
@@ -281,6 +281,6 @@
       "id": "b5b9ecae-93e4-44ff-9d1b-c1a1009ac972"
     }
   },
-  "generated_at": "2026-08-05T07:34:54.299998+00:00",
+  "generated_at": "2026-08-05T07:39:17.570907+00:00",
   "master_pivot_url": "https://docs.google.com/spreadsheets/d/1-lP16-roFqmtpNFPP36DhgduxmDdQkIFgOHu6Yad7cI/edit"
 }
