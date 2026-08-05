@@ -2,7 +2,7 @@
   "campaigns": {
     "India_Auto Build_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T08:25:24.451979+00:00",
+        "as_of": "2026-08-05T08:40:59.554499+00:00",
         "bounced_lifetime": 3,
         "clicks_lifetime": 58,
         "clicks_unique_lifetime": 7,
@@ -111,7 +111,7 @@
     },
     "India_Auto Close_22/07/26": {
       "current": {
-        "as_of": "2026-08-05T08:25:24.451979+00:00",
+        "as_of": "2026-08-05T08:40:59.554499+00:00",
         "bounced_lifetime": 10,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -212,7 +212,7 @@
     },
     "India_FMCG Godrej_08/07/26": {
       "current": {
-        "as_of": "2026-08-05T08:25:24.451979+00:00",
+        "as_of": "2026-08-05T08:40:59.554499+00:00",
         "bounced_lifetime": 7,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -273,27 +273,27 @@
     },
     "India_RBI MRM_05/08/26": {
       "current": {
-        "as_of": "2026-08-05T08:25:24.451979+00:00",
+        "as_of": "2026-08-05T08:40:59.554499+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
         "leads_count": 78,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1R0BxLT32VC4f-DqqAcEaegrjOAlKpxdsdMcrVMb0NWI/edit",
-        "opens_lifetime": 3,
+        "opens_lifetime": 4,
         "opens_unique_lifetime": 2,
         "replies_24h": 0,
         "replies_lifetime": 0,
-        "sent_24h": 7,
-        "sent_lifetime": 7,
+        "sent_24h": 8,
+        "sent_lifetime": 8,
         "unique_clickers_lifetime": 0,
         "unique_openers_lifetime": 2
       },
       "days": {
         "2026-08-05": {
           "clicks": 0,
-          "opened": 3,
+          "opened": 4,
           "replies": 0,
-          "sent": 7,
+          "sent": 8,
           "unique_clicks": 0,
           "unique_opened": 2
         }
@@ -301,6 +301,6 @@
       "id": "b5b9ecae-93e4-44ff-9d1b-c1a1009ac972"
     }
   },
-  "generated_at": "2026-08-05T08:25:24.451979+00:00",
+  "generated_at": "2026-08-05T08:40:59.554499+00:00",
   "master_pivot_url": "https://docs.google.com/spreadsheets/d/1-lP16-roFqmtpNFPP36DhgduxmDdQkIFgOHu6Yad7cI/edit"
 }
