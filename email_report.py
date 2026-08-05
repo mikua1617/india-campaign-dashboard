@@ -1,5 +1,5 @@
 """
-Daily email report for the India campaign dashboard.
+Daily email report for the US campaign dashboard.
 
 Runs after fetch_data.py in the same workflow. Reads the just-updated
 docs/data.json and sends a self-contained HTML email (plain inline-styled
@@ -21,20 +21,21 @@ from email.mime.text import MIMEText
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "data.json")
 
-DASHBOARD_URL = "https://mikua1617.github.io/india-campaign-dashboard/"
+# Edit this list directly to add/remove recipients -- not a secret, just names.
+RECIPIENTS = [
+    "ray.millman@ituring.ai",
+    "girdhar.s@ituring.ai",
+    "valsan@ituring.ai",
+    "bemnet.tesfaye@ituring.ai",
+    "tarika@ituring.ai",
+]
+
+DASHBOARD_URL = "https://mikua1617.github.io/us-campaign-dashboard/"
 
 GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 if not GMAIL_ADDRESS or not GMAIL_APP_PASSWORD:
     sys.exit("GMAIL_ADDRESS and/or GMAIL_APP_PASSWORD environment variables are not set.")
-
-# Not a secret, just names -- edit directly to add/remove recipients.
-RECIPIENTS = [
-    "tarika@ituring.ai",
-    "girdhar.s@ituring.ai",
-    "saurabh.verma@ituring.ai",
-    "srivastava.aishwerya@ituring.ai",
-]
 
 
 def pct(n, d):
@@ -145,7 +146,7 @@ def build_html(data):
 
     return f"""
     <div style="font-family: -apple-system, Segoe UI, Roboto, sans-serif; color:#1a1a19; max-width:900px;">
-      <h2 style="margin-bottom:4px;">India campaign dashboard — daily report</h2>
+      <h2 style="margin-bottom:4px;">US campaign dashboard — daily report</h2>
       <p style="font-size:13px; color:#767671; margin-top:0;">
         Generated {generated_str} &middot;
         <a href="{DASHBOARD_URL}" style="color:#2a78d6;">View live dashboard &rarr;</a>
@@ -182,7 +183,7 @@ def build_html(data):
 def send_email(html_body):
     today_str = datetime.now(timezone.utc).strftime("%d %b %Y")
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"India campaign dashboard — {today_str}"
+    msg["Subject"] = f"US campaign dashboard — {today_str}"
     msg["From"] = GMAIL_ADDRESS
     msg["To"] = ", ".join(RECIPIENTS)
     msg.attach(MIMEText(html_body, "html"))

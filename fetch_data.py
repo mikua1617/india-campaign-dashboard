@@ -1,8 +1,8 @@
 """
-Daily fetch script for the India campaign dashboard.
+Daily fetch script for the US campaign dashboard.
 
 What it does, each time it runs:
-  1. Finds active campaigns whose name starts with "India_" (our naming convention:
+  1. Finds active campaigns whose name starts with "US_" (our naming convention:
      Geography_Name_DD/MM/YY).
   2. Pulls the last 14 calendar days of sent/opened/clicked/replied per campaign.
   3. Pulls a true rolling-24h sent/replies count per campaign, using per-email
@@ -71,8 +71,8 @@ def get_all_leads(campaign_id):
     return leads
 
 
-def get_active_india_campaigns():
-    """Active campaigns (status=1) whose name starts with 'India_'."""
+def get_active_us_campaigns():
+    """Active campaigns (status=1) whose name starts with 'US_'."""
     campaigns = []
     starting_after = None
     while True:
@@ -82,7 +82,7 @@ def get_active_india_campaigns():
         page = api_get("/campaigns", params)
         items = page.get("items", [])
         for c in items:
-            if c["name"].startswith("India_"):
+            if c["name"].startswith("US_"):
                 campaigns.append({"id": c["id"], "name": c["name"]})
         starting_after = page.get("next_starting_after")
         if not starting_after or not items:
@@ -180,10 +180,10 @@ def main():
     window_end = now.strftime("%Y-%m-%d")
 
     data = load_existing_data()
-    campaigns = get_active_india_campaigns()
+    campaigns = get_active_us_campaigns()
 
     if not campaigns:
-        print("No active India_ campaigns found. Check naming convention or campaign status.")
+        print("No active US_ campaigns found. Check naming convention or campaign status.")
 
     for c in campaigns:
         name, cid = c["name"], c["id"]
