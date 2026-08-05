@@ -80,11 +80,17 @@ def api_post(path, body=None):
     return resp.json()
 
 
-def get_active_india_campaigns():
+def get_all_india_campaigns():
+    """
+    ALL campaigns whose name starts with 'India_', regardless of status --
+    same reasoning as fetch_data.py: a completed campaign can still get
+    late opens/clicks/replies, so its Sheet should keep updating rather
+    than freezing the moment the campaign finishes sending.
+    """
     campaigns = []
     starting_after = None
     while True:
-        params = {"limit": 100, "status": 1}
+        params = {"limit": 100}
         if starting_after:
             params["starting_after"] = starting_after
         page = api_get("/campaigns", params)
@@ -296,7 +302,7 @@ def sync_master_pivot(sheet_id, all_leads_by_campaign):
 
 def main():
     links = load_sheet_links()
-    campaigns = get_active_india_campaigns()
+    campaigns = get_all_india_campaigns()
 
     with open(DATA_FILE) as f:
         data = json.load(f)
