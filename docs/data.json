@@ -2,7 +2,7 @@
   "campaigns": {
     "India_Auto Build_22/07/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 3,
         "clicks_lifetime": 58,
         "clicks_unique_lifetime": 8,
@@ -18,21 +18,12 @@
         "unique_clickers_lifetime": 5,
         "unique_openers_lifetime": 26
       },
-      "days": {
-        "2026-08-11": {
-          "clicks": 0,
-          "opened": 4,
-          "replies": 0,
-          "sent": 6,
-          "unique_clicks": 0,
-          "unique_opened": 4
-        }
-      },
+      "days": {},
       "id": "127fc02f-1bea-48fa-94d4-6270812018ca"
     },
     "India_Auto Close_22/07/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 10,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -48,21 +39,12 @@
         "unique_clickers_lifetime": 0,
         "unique_openers_lifetime": 29
       },
-      "days": {
-        "2026-08-11": {
-          "clicks": 0,
-          "opened": 4,
-          "replies": 0,
-          "sent": 9,
-          "unique_clicks": 0,
-          "unique_opened": 1
-        }
-      },
+      "days": {},
       "id": "acc43361-7805-4e97-8ab2-3e2536fad69a"
     },
     "India_COO(Life Insurance)_20/08/2026": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -100,7 +82,7 @@
     },
     "India_FMCG Godrej_08/07/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 7,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -121,7 +103,7 @@
     },
     "India_FMCG everyone else_08/07/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 9,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -142,7 +124,7 @@
     },
     "India_Life Insurance(HOR)_20/08/2026": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -180,7 +162,7 @@
     },
     "India_Pharma Debtor Score 100-150 AR_23/06/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -201,31 +183,23 @@
     },
     "India_RBI MRM_05/08/26": {
       "current": {
-        "as_of": "2026-08-25T14:13:19.818989+00:00",
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
         "bounced_lifetime": 12,
         "clicks_lifetime": 11,
         "clicks_unique_lifetime": 3,
         "leads_count": 78,
         "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1R0BxLT32VC4f-DqqAcEaegrjOAlKpxdsdMcrVMb0NWI/edit",
-        "opens_lifetime": 170,
-        "opens_unique_lifetime": 141,
+        "opens_lifetime": 186,
+        "opens_unique_lifetime": 147,
         "replies_24h": 0,
         "replies_lifetime": 1,
-        "sent_24h": 0,
-        "sent_lifetime": 318,
-        "status": 1,
+        "sent_24h": 26,
+        "sent_lifetime": 344,
+        "status": 3,
         "unique_clickers_lifetime": 3,
-        "unique_openers_lifetime": 55
+        "unique_openers_lifetime": 58
       },
       "days": {
-        "2026-08-11": {
-          "clicks": 0,
-          "opened": 12,
-          "replies": 0,
-          "sent": 33,
-          "unique_clicks": 0,
-          "unique_opened": 9
-        },
         "2026-08-12": {
           "clicks": 0,
           "opened": 19,
@@ -273,11 +247,40 @@
           "sent": 7,
           "unique_clicks": 1,
           "unique_opened": 6
+        },
+        "2026-08-26": {
+          "clicks": 0,
+          "opened": 16,
+          "replies": 0,
+          "sent": 26,
+          "unique_clicks": 0,
+          "unique_opened": 14
         }
       },
       "id": "b5b9ecae-93e4-44ff-9d1b-c1a1009ac972"
+    },
+    "India_RBI MRM_2_26/08/26": {
+      "current": {
+        "as_of": "2026-08-26T14:11:45.596149+00:00",
+        "bounced_lifetime": 0,
+        "clicks_lifetime": 0,
+        "clicks_unique_lifetime": 0,
+        "leads_count": 35,
+        "leads_sheet_url": "https://docs.google.com/spreadsheets/d/1Yc7p7xZ4z6AW5Ra3aPiuM0SJnEk8IM6YH1cO9gCgcRc/edit",
+        "opens_lifetime": 0,
+        "opens_unique_lifetime": 0,
+        "replies_24h": 0,
+        "replies_lifetime": 0,
+        "sent_24h": 0,
+        "sent_lifetime": 0,
+        "status": 1,
+        "unique_clickers_lifetime": 0,
+        "unique_openers_lifetime": 0
+      },
+      "days": {},
+      "id": "a0e0edff-ed87-4d04-b6e6-f18397a12cda"
     }
   },
-  "generated_at": "2026-08-25T14:13:19.818989+00:00",
+  "generated_at": "2026-08-26T14:11:45.596149+00:00",
   "master_pivot_url": "https://docs.google.com/spreadsheets/d/1-lP16-roFqmtpNFPP36DhgduxmDdQkIFgOHu6Yad7cI/edit"
 }
