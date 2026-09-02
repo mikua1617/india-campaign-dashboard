@@ -2,7 +2,7 @@
   "campaigns": {
     "India_Auto Build_22/07/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 3,
         "clicks_lifetime": 58,
         "clicks_unique_lifetime": 8,
@@ -23,7 +23,7 @@
     },
     "India_Auto Close_22/07/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 10,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -44,7 +44,7 @@
     },
     "India_COO(Life Insurance)_20/08/2026": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -54,9 +54,9 @@
         "opens_unique_lifetime": 0,
         "replies_24h": 0,
         "replies_lifetime": 0,
-        "sent_24h": 0,
-        "sent_lifetime": 30,
-        "status": 1,
+        "sent_24h": 7,
+        "sent_lifetime": 37,
+        "status": 3,
         "unique_clickers_lifetime": 0,
         "unique_openers_lifetime": 0
       },
@@ -84,13 +84,21 @@
           "sent": 7,
           "unique_clicks": 0,
           "unique_opened": 0
+        },
+        "2026-09-02": {
+          "clicks": 0,
+          "opened": 0,
+          "replies": 0,
+          "sent": 7,
+          "unique_clicks": 0,
+          "unique_opened": 0
         }
       },
       "id": "d11eaddf-e116-482a-b0bc-162f75276031"
     },
     "India_FMCG Godrej_08/07/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 7,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -111,7 +119,7 @@
     },
     "India_FMCG everyone else_08/07/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 9,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -132,7 +140,7 @@
     },
     "India_Life Insurance(HOR)_20/08/2026": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -142,9 +150,9 @@
         "opens_unique_lifetime": 0,
         "replies_24h": 0,
         "replies_lifetime": 0,
-        "sent_24h": 0,
-        "sent_lifetime": 21,
-        "status": 1,
+        "sent_24h": 5,
+        "sent_lifetime": 26,
+        "status": 3,
         "unique_clickers_lifetime": 0,
         "unique_openers_lifetime": 0
       },
@@ -172,13 +180,21 @@
           "sent": 5,
           "unique_clicks": 0,
           "unique_opened": 0
+        },
+        "2026-09-02": {
+          "clicks": 0,
+          "opened": 0,
+          "replies": 0,
+          "sent": 5,
+          "unique_clicks": 0,
+          "unique_opened": 0
         }
       },
       "id": "374121ed-5ae1-4100-a236-4ce012ffba18"
     },
     "India_Pharma Debtor Score 100-150 AR_23/06/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 1,
         "clicks_lifetime": 0,
         "clicks_unique_lifetime": 0,
@@ -199,7 +215,7 @@
     },
     "India_RBI MRM_05/08/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 12,
         "clicks_lifetime": 11,
         "clicks_unique_lifetime": 3,
@@ -261,7 +277,7 @@
     },
     "India_RBI MRM_2_26/08/26": {
       "current": {
-        "as_of": "2026-09-01T17:23:04.290173+00:00",
+        "as_of": "2026-09-02T17:14:57.475189+00:00",
         "bounced_lifetime": 2,
         "clicks_lifetime": 7,
         "clicks_unique_lifetime": 2,
@@ -306,6 +322,6 @@
       "id": "a0e0edff-ed87-4d04-b6e6-f18397a12cda"
     }
   },
-  "generated_at": "2026-09-01T17:23:04.290173+00:00",
+  "generated_at": "2026-09-02T17:14:57.475189+00:00",
   "master_pivot_url": "https://docs.google.com/spreadsheets/d/1-lP16-roFqmtpNFPP36DhgduxmDdQkIFgOHu6Yad7cI/edit"
 }
